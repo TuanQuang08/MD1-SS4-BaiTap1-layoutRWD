@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 10px;
+        }
+        header{
+            height: 50px;
+            background-color: #2a2929;
+            display: flex;
+            align-items: center;
+        }
+        header h2{
+            margin: 0;
+            margin-left: 50px;
+            color: white;
+        }
+        nav{
+            margin: 50px 0;
+        }
+        nav .container-nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+        }
+        nav .container-nav h1{
+            font-size: 40px;
+            margin: 0;
+        }
+        nav .container-nav p{
+            text-align: center;
+            margin: 5px 0;
+            color: #726f6f;
+        }
+        nav .container-nav .nav-button{
+            display: flex;
+        }
+        nav .container-nav .nav-button button{
+            padding: 10px;
+            margin: 10px 3px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: #18aeff;
+        }
+        nav .container-nav .nav-button button:last-child{
+            background-color: #726f6f;
+        }
+        .container-section{
+            background-color: #d7d7d7;
+            padding: 50px;
+            height: 650px;
+        }
+        .section-tab{
+            width: 31.5%;
+            margin: 14px;
+            float: left;
+            height: 250px;
+            border: 1px solid grey;
+            box-shadow: 1px 1px 10px 1px grey;
+        }
+        .section-tab .title{
+            height: 57%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2a2929;
+            color: white;
+            font-size: 22px;
+        }
+        .section-tab .bottom{
+            padding: 15px;
+            background-color: white;
+        }
+        .section-tab .bottom p{
+            margin-top: 0;
+
+        }
+        .section-tab .bottom .bottom-button{
+            display: flex;
+            justify-content: space-between;
+        }
+        .section-tab .bottom .bottom-button button{
+            background-color: white;
+            border: 1px solid #726f6f;
+            padding: 5px;
+        }
+        .section-tab .bottom .bottom-button button:last-child{
+            margin-left: -5px;
+        }
+        @media only screen and (max-width: 768px) {
+            nav .container-nav{
+                width: 80%;
+            }
+            .container-section{
+                height: 1750px;
+            }
+            .section-tab{
+                width: 100%;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            nav .container-nav h1{
+                font-size: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+  <h2>Album</h2>
+</header>
+<nav>
+  <div class="container-nav">
+    <h1>Album example</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda blanditiis consectetur consequuntur, corporis dolorem eos est, explicabo facere impedit iure labore non numquam praesentium quas saepe, similique tempora ut voluptates!</p>
+      <div class="nav-button">
+          <button type="submit">Main call to action</button>
+          <button type="submit">Secondary action</button>
+      </div>
+  </div>
+</nav>
+<section class="container-section">
+    <div class="section-tab">
+        <div class="title">
+            <h4>Thumbnail</h4>
+        </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias architecto cum dignissimos dolore facere, fugiat illum libero molestias similique.</p>
+            <div class="bottom-button">
+                <div class="button">
+                    <button type="submit">View</button>
+                    <button type="submit">Edit</button>
+                </div>
+                <span>9 minss</span>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="section-tab">
+        <div class="title">
+            <h4>Thumbnail</h4>
+        </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias architecto cum dignissimos dolore facere, fugiat illum libero molestias similique.</p>
+            <div class="bottom-button">
+                <div class="button">
+                    <button type="submit">View</button>
+                    <button type="submit">Edit</button>
+                </div>
+                <span>9 minss</span>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="section-tab">
+        <div class="title">
+            <h4>Thumbnail</h4>
+        </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias architecto cum dignissimos dolore facere, fugiat illum libero molestias similique.</p>
+            <div class="bottom-button">
+                <div class="button">
+                    <button type="submit">View</button>
+                    <button type="submit">Edit</button>
+                </div>
+                <span>9 minss</span>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="section-tab">
+        <div class="title">
+            <h4>Thumbnail</h4>
+        </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias architecto cum dignissimos dolore facere, fugiat illum libero molestias similique.</p>
+            <div class="bottom-button">
+                <div class="button">
+                    <button type="submit">View</button>
+                    <button type="submit">Edit</button>
+                </div>
+                <span>9 minss</span>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="section-tab">
+        <div class="title">
+            <h4>Thumbnail</h4>
+        </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias architecto cum dignissimos dolore facere, fugiat illum libero molestias similique.</p>
+            <div class="bottom-button">
+                <div class="button">
+                    <button type="submit">View</button>
+                    <button type="submit">Edit</button>
+                </div>
+                <span>9 minss</span>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="section-tab">
+        <div class="title">
+            <h4>Thumbnail</h4>
+        </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias architecto cum dignissimos dolore facere, fugiat illum libero molestias similique.</p>
+            <div class="bottom-button">
+                <div class="button">
+                    <button type="submit">View</button>
+                    <button type="submit">Edit</button>
+                </div>
+                <span>9 minss</span>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+</body>
+</html>
